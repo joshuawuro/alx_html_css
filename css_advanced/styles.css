@@ -1,0 +1,130 @@
+:root {
+    --purple: #C271FF;
+    --white: #FFFFFF;
+    --darkblue: #071629;
+    --black: #00000073;
+    --shadow: #0000007c;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Source Sans 3';
+}
+
+.hero-section {
+    background: url("./assets/Object.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+header nav{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 20px 0;
+}
+
+nav ul {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+nav li{
+    list-style-type: none;
+    margin: 0 20px;
+}
+
+nav li a {
+    font-weight: bold;
+    text-decoration: none;
+    color: var(--white);
+}
+
+.cover-section {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.cover-section h1{
+    font-size: 120px;
+    color: var(--white);
+    margin-bottom: -20px;
+}
+
+.cover-section span {
+    font-size: 16px;
+    font-weight: bold;
+    padding: 0 20px;
+    color: var(--white);
+}
+
+.cover-section button {
+    font-weight: bold;
+    display: block;
+    margin: 40px auto;
+    padding: 10px 20px;
+    border-radius: 50px;
+    color: var(--white);
+    background-color: var(--purple);
+    box-shadow: 2px 0 10px var(--shadow);
+    border: none;
+}
+
+.cover-section button:hover {
+    cursor: pointer;
+    background-color: var(--white);
+    color: var(--purple);
+    transition: all .5s ease-in-out;
+}
+
+.celebrators {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 120px;
+}
+
+.celebrators h2 {
+    color: var(--white);
+    font-size: 32px;
+    font-weight: 300;
+}
+
+.celebrators h2 span {
+    color: var(--purple);
+    font-weight: bold;
+}
+
+.celebrate {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin: 50px 0;
+}
+
+.Phillip, .Lawrence, .Walters, .Hughes {
+    text-align: center;
+    margin: 20px 50px;
+    color: var(--white);
+}
+
+.Phillip p, .Lawrence p, .Walters p, .Hughes p {
+    font-style: italic;
+    margin: 5px 0;
+    line-height: 2;
+}
+
+.Walters img {
+    border-radius: 100%;
+}
