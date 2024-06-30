@@ -50,6 +50,12 @@ nav li a {
     color: var(--white);
 }
 
+nav li a:hover{
+    color: var(--purple);
+    border-bottom: 2px solid var(--white);
+    transition: all .5s ease-in-out;
+}
+
 .cover-section {
     text-align: center;
     margin-top: 50px;
