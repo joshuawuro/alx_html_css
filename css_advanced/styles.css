@@ -12,6 +12,7 @@
     margin: 0;
     box-sizing: border-box;
     font-family: 'Source Sans 3';
+    scroll-behavior: smooth;
 }
 
 .hero-section {
@@ -364,6 +365,12 @@ nav li a:hover{
     font-size: 25px;
     color: var(--white);
     margin: 0 10px;
+}
+
+.fa-brands:hover {
+    color: var(--purple);
+    transition: all .5s ease-in-out;
+    cursor: pointer;
 }
 
 .foot p{
