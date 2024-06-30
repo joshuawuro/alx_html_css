@@ -2,8 +2,9 @@
     --purple: #C271FF;
     --white: #FFFFFF;
     --darkblue: #071629;
-    --black: #00000073;
+    --black: #000000;
     --shadow: #0000007c;
+    --gray: #0716297a;
 }
 
 * {
@@ -87,17 +88,14 @@ nav li a {
 }
 
 .celebrators {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    margin-top: 120px;
+    margin-top: 170px;
 }
 
 .celebrators h2 {
     color: var(--white);
     font-size: 32px;
     font-weight: 300;
+    text-align: center;
 }
 
 .celebrators h2 span {
@@ -108,23 +106,197 @@ nav li a {
 .celebrate {
     display: flex;
     flex-direction: row;
-    align-items: center;
     justify-content: center;
-    margin: 50px 0;
+    margin-top: 50px;
 }
+
 
 .Phillip, .Lawrence, .Walters, .Hughes {
     text-align: center;
-    margin: 20px 50px;
+    margin: 0 50px;
     color: var(--white);
 }
 
 .Phillip p, .Lawrence p, .Walters p, .Hughes p {
     font-style: italic;
-    margin: 5px 0;
-    line-height: 2;
+    font-size: 16px;
 }
 
 .Walters img {
     border-radius: 100%;
+}
+
+.testimonial {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--purple);
+    padding: 100px;
+}
+
+.testimonial blockquote, .testimonial h3, .testimonial p {
+    font-size: 22px;
+    color: var(--white);
+    margin: 0 80px;
+}
+
+.testimonial blockquote {
+    width: 750px;
+    margin-bottom: 20px;
+}
+
+.testimonial p{
+    font-style: italic;
+}
+
+/* TUTORIALS SECTION OF THE WEBSITE */
+.tutorial-section {
+    margin: 100px 0;
+}
+
+
+.tutorial-section h2{
+    text-align: center;
+    font-weight: 300;
+    margin: 50px 0;
+}
+
+.tutorial-section span {
+    font-weight: bold;
+    color: var(--purple);
+}
+
+.Diagonal, .Happy, .Natural, .Sad {
+    width: 255px;
+    margin: 0 20px;
+}
+
+.tutorial {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.tutorial h3 {
+    text-align: left;
+    font-size: 16px;
+}
+
+.tutorial p {
+    text-align: left;
+    color: var(--gray);
+    font-size: 14px;
+    width: 260px;
+}
+
+.person {
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+}
+
+.person h4 {
+    font-size: 14px;
+    color: var(--purple);
+    margin: 0 10px;
+}
+
+.person img{
+    width: 8%;
+}
+
+.star-time {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+}
+
+.star-time p{
+    color: var(--purple);
+    text-align: right;
+}
+
+.stars {
+    display: flex;
+    align-items: center;
+    padding: 0;
+}
+
+.fa-solid{
+    color: var(--purple);
+    margin: 0 2px;
+}
+
+.last {
+    color: var(--gray);
+}
+
+/* FREE MEMBERSHIP SECTION OF THE FLYER */
+.membership {
+    background-color: var(--darkblue);
+    padding: 50px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.membership button {
+    font-weight: bold;
+    display: block;
+    margin-top: 40px;
+    padding: 10px 20px;
+    border-radius: 50px;
+    color: var(--white);
+    background-color: var(--purple);
+    box-shadow: 2px 0 10px var(--shadow);
+    border: none;
+}
+
+.membership button:hover {
+    cursor: pointer;
+    background-color: var(--white);
+    color: var(--purple);
+    transition: all .5s ease-in-out;
+}
+
+.membership h2 {
+    font-size: 32px;
+    font-weight: 300;
+    text-align: center;
+    color: var(--white);
+    margin-bottom: 30px;
+}
+
+.membership span {
+    color: var(--purple);
+    font-weight: bold;
+}
+
+.memberships {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.one, .two, .three, .four {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 220px;
+    margin: 30px 10px;
+}
+
+
+
+.memberships h3 {
+    color: var(--white);
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+.memberships p {
+    color: var(--white);
+    font-size: 14px;
 }
