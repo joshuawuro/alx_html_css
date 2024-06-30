@@ -1,6 +1,7 @@
 :root {
     --purple: #C271FF;
     --white: #FFFFFF;
+    --rd-white: #ffffff77;
     --darkblue: #071629;
     --black: #000000;
     --shadow: #0000007c;
@@ -13,6 +14,10 @@
     box-sizing: border-box;
     font-family: 'Source Sans 3';
     scroll-behavior: smooth;
+}
+
+.mg50 {
+    margin-top: 100px;
 }
 
 .hero-section {
@@ -377,6 +382,6 @@ nav li a:hover{
 
 .foot p{
     text-align: center;
-    color: var(--white);
+    color: var(--rd-white);
     padding-bottom: 30px;
 }
