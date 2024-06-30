@@ -180,8 +180,9 @@ nav li a:hover{
 }
 
 .play {
-    position: absolute;
-    justify-content: center;
+    position: relative;
+    top: 35%;
+    left: 35%;
 }
 
 
