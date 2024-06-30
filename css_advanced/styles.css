@@ -347,3 +347,27 @@ nav li a:hover{
     font-size: 14px;
     color: var(--gray);
 }
+
+.foot {
+    background-color: var(--darkblue);
+    /* padding: 100px 0; */
+}
+
+.logicons {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 80px;
+}
+
+.fa-brands {
+    font-size: 25px;
+    color: var(--white);
+    margin: 0 10px;
+}
+
+.foot p{
+    text-align: center;
+    color: var(--white);
+    padding-bottom: 30px;
+}
