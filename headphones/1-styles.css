@@ -1,0 +1,117 @@
+:root {
+    --white: #ffffff;
+    --primary-color: #FF6565;
+    --primary-text-color: #071629;
+    --shadow: #07162989;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'source sans 3';
+}
+
+button {
+    color: var(--white);
+    background-color: var(--primary-color);
+    font-size: 16px;
+    font-weight: 400;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 50px;
+    margin: 30px;
+}
+
+/* HEAD AND NAV LINKS SECTION OF THE WEBSITE */
+
+.hero-section {
+    background-image: url("./assets/headphones_hero_1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 30px 0;
+}
+
+header nav ul {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+}
+
+header nav li a{
+    color: var(--white);
+    font-size: 16px;
+    font-weight: bold;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+header img{
+    width: 50%;
+    margin: 0 auto;
+}
+
+/* TEXT AREA OF THE HERO SECTION */
+
+.md-txt-hsectn {
+    margin-top: 400px;
+    text-align: center;
+    max-width: 1000px auto;
+}
+
+.md-txt-hsectn h1{
+    font-size: 32px;
+    color: var(--white);
+    font-weight: bold;
+}
+
+.md-txt-hsectn p {
+    font-size: 16px;
+    font-weight: bold;
+    color: var(--white);
+}
+
+.md-txt-hsectn button {
+    box-shadow: 0.1px 0 10px var(--shadow);
+}
+
+blockquote {
+    width: 637px;
+    margin: 0 auto;
+    text-align: center;
+    color: var(--white);
+    font-size: 16px;
+}
+
+
+/* MEDIA QUERIES FOR THE HERO SECTION */
+/* min-width 480px */
+@media (max-width: 480px) {
+
+    header nav ul{
+        display: none;
+    }
+
+    .md-txt-hsectn {
+        margin-top: 250px;
+        width: 357px auto;
+        text-align: center;
+    }
+
+    blockquote {
+        width: 357px;
+    }
+}
+
+
+
+
