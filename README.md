@@ -1,6 +1,6 @@
 <h1>CSS, BASIC</h1>
 
-<img src="https://s3.amazonaws.com/alx-intranet.hbtn.io/uploads/medias/2021/3/9530cfe68a62c19dbc5a1e32dfde651448b3d2e0.gif?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIARDDGGGOUSBVO6H7D%2F20240625%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240625T151215Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=host&X-Amz-Signature=93621882db6966e3011c458019a7ed590b6104ea50e4ebcf588ed4264f87ee89" alt="man strugling with windows" width="300px">
+<img src="https://s3.amazonaws.com/alx-intranet.hbtn.io/uploads/medias/2021/3/9530cfe68a62c19dbc5a1e32dfde651448b3d2e0.gif?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIARDDGGGOUSBVO6H7D%2F20240625%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240625T151215Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=host&X-Amz-Signature=93621882db6966e3011c458019a7ed590b6104ea50e4ebcf588ed4264f87ee89" alt="man strugling with windows" width="300px" align="center">
 
 <h2>RESOURCES</h2>
 <h3>Read or watch</h3>
