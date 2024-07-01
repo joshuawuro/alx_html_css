@@ -114,29 +114,31 @@ blockquote {
 
 
 /* WHAT WE DO SECTION OF THE WEBSITE */
+
 .what-we-do {
-    margin: 80px 0;
-}
-.what-we-do h1, .what-we-do blockquote {
-    text-align: center;
-    color: var(--primary-text-color);
-    width: 637px;
-    margin: 0 auto;
+    margin: 50px 0;
 }
 
-.what-we-do h1 {
+.textarea-wwd {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.textarea-wwd h1{
     font-size: 32px;
-    font-weight: bold;
+    color: var(--primary-text-color);
 }
 
-.what-we-do blockquote {
-    font-size: 16px;
-    margin-top: 50px;
-    margin-bottom: 50px;
+.textarea-wwd blockquote {
+    color: var(--primary-text-color);
+    margin: 40px 0;
 }
 
 .media-area {
     display: flex;
+    flex-direction: row;
     align-items: center;
     justify-content: center;
 }
@@ -145,21 +147,27 @@ blockquote {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin: 0 20px;
-}
-
-.media-area p, .media-area h4 {
-    text-align: center;
+    justify-content: center;
+    margin: 20px 10px;
     width: 207px;
 }
 
-.media-area h4 {
-    margin: 10px;
+.media-area h4{
+    margin: 10px 0;
+    color: var(--primary-text-color);
 }
 
 .media-area img {
     width: 20%;
 }
 
+.media-area p {
+    text-align: center;
+    color: var(--primary-text-color);
+}
 
-
+@media (max-width: 480px) {
+    .media-area {
+        flex-direction: column;
+    }
+}
