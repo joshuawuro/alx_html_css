@@ -1,6 +1,6 @@
 <h1>CSS, BASIC</h1>
 
-<img src="file:///C:/Users/User/Downloads/9530cfe68a62c19dbc5a1e32dfde651448b3d2e0.gif" alt="man strugling with windows" width="300px" align="center">
+<img src="/CSS-STRUGGLES.gif" alt="man strugling with windows" width="300px" align="center">
 
 <h2>RESOURCES</h2>
 <h3>Read or watch</h3>
