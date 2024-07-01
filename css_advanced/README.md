@@ -1,4 +1,5 @@
 <h1>CSS ADVANCED</h1>
+<img src="/css_advanced/1f4cd63ecc3a8c03b0f4309b74aca179e225aabf.jpg" width="100%" align="center">
 
 <h2>RESOURCES</h2>
 <h3>Read or watch:</h3>
