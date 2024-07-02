@@ -15,6 +15,17 @@
     margin: 0 10px;
 }
 
+.fa-brands:hover {
+    cursor: pointer;
+    transition: all .4s ease;
+    color: var(--primary-color);
+    opacity: 0.9;
+}
+
+.fa-brands:active {
+    color: var(--white);
+}
+
 .foot p{
     text-align: center;
     color: var(--white);
