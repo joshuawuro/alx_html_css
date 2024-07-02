@@ -40,3 +40,7 @@ input::placeholder {
     font-weight: 500;
     font-size: 14px;
 }
+
+#name:focus {
+    border: none;
+}

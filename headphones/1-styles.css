@@ -67,6 +67,17 @@ header nav li a{
     text-decoration: none;
 }
 
+header nav li a:hover {
+    color: var(--primary-color);
+    border-bottom: 1px solid var(--primary-color);
+}   
+
+header nav li a:active {
+    color: var(--white);
+    opacity: 0.9;
+    border-bottom: 1px solid var(--white);
+}
+
 header img{
     width: 50%;
     margin: 0 auto;
