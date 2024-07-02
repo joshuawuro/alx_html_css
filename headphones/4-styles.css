@@ -1,0 +1,22 @@
+.foot {
+    background-color: var(--primary-text-color);
+}
+
+.logicons {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 80px;
+}
+
+.fa-brands {
+    font-size: 25px;
+    color: var(--white);
+    margin: 0 10px;
+}
+
+.foot p{
+    text-align: center;
+    color: var(--white);
+    padding-bottom: 30px;
+}
