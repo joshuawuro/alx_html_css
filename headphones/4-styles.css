@@ -9,6 +9,10 @@
     padding: 80px;
 }
 
+.logicons img {
+    width: 50%;
+}
+
 .fa-brands {
     font-size: 25px;
     color: var(--white);

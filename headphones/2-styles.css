@@ -42,6 +42,11 @@
     margin: 0 30px;
 }
 
+.topp, .downn {
+    display: flex;
+    flex-direction: row;
+}
+
 .polygon-area h2 {
     font-size: 46px;
     color: var(--white);
@@ -65,7 +70,7 @@
     width: 100%;
 }
 
-@media (max-width: 1078px) {
+/* @media (max-width: 1078px) {
     .polygon-area img {
         width: 100%;
     }
@@ -87,4 +92,4 @@
         margin: 0 30px;
     }
 
-}
+} */
