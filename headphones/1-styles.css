@@ -86,7 +86,7 @@ header img{
 /* TEXT AREA OF THE HERO SECTION */
 
 .md-txt-hsectn {
-    margin-top: 400px;
+    margin-top: 300px;
     text-align: center;
     max-width: 1000px auto;
 }
@@ -117,7 +117,7 @@ blockquote {
 
 
 /* MEDIA QUERIES FOR THE HERO SECTION */
-/* min-width 480px */
+/* max-width 480px */
 @media (max-width: 480px) {
 
     header {
@@ -167,6 +167,18 @@ blockquote {
     justify-content: center;
 }
 
+.top{
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+}
+
+.down{
+    display: flex;
+    flex-direction: row;
+}
+
+
 .frequency, .media, .audio, .hear {
     display: flex;
     flex-direction: column;
@@ -190,8 +202,21 @@ blockquote {
     color: var(--primary-text-color);
 }
 
+/* MEDIA QUERIES FOR THE WHAT WE DO SECTION */
+/* max-width 768 */
+@media (max-width: 768px) {
+    .media-area {
+        flex-direction: column;
+    }   
+}
+
+
 @media (max-width: 480px) {
     .media-area {
+        flex-direction: column;
+    }
+
+    .top, .down {
         flex-direction: column;
     }
 }
