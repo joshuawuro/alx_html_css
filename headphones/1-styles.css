@@ -253,7 +253,7 @@ blockquote {
     align-items: center;
     justify-content: center;
     margin: 20px 10px;
-    width: 207px;
+    width: 200px;
 }
 
 .media-area h4{
@@ -273,6 +273,12 @@ blockquote {
 /* MEDIA QUERIES FOR THE WHAT WE DO SECTION */
 /* max-width 768 */
 @media (max-width: 768px) {
+
+    .textarea-wwd{
+        width: 502px;
+        margin: 0 auto;
+    }
+
     .media-area {
         flex-direction: column;
     }   
@@ -280,6 +286,11 @@ blockquote {
 
 
 @media (max-width: 480px) {
+
+    .textarea-wwd {
+        width: 325px;
+    }
+
     .media-area {
         flex-direction: column;
     }
