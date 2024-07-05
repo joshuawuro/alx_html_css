@@ -65,3 +65,26 @@
     color: var(--white);
     bottom: 30px;
 }
+
+@media (max-width: 480px) {
+    .textarea-results {
+        width: 410px;
+    }
+
+    .parent-pentagon {
+        flex-direction: column;
+    }
+
+    .parent-pentagon img {
+        width: 200px;
+        height: 200px;
+    }
+
+    .first, .second, .third, .forth {
+        margin: 50px 0;
+    }
+
+    .textarea-results h1 {
+        top: 200px;
+    }
+}
