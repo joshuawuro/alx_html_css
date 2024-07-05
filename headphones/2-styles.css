@@ -26,50 +26,42 @@
     margin: 30px 0;
 }
 
-.pentagon {
+.parent-pentagon {
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
 }
 
-.first-two, .last-two {
-    display: flex;
-    width: 100%;
-    justify-content: space-between;
-}
-
-.f-one, .s-one, .t-one, .ff-one {
-    flex: 1 1 24%;
-    box-sizing: border-box;
-}
-
-@media (max-width: 768px) {
-    .pentagon {
-        flex-direction: column;
-    }
-
-    .first-two, .last-two {
-        display: flex;
-        justify-content: space-between;
-    }
-
-    .f-one, .s-one, .t-one, .ff-one {
-        flex: 1 1 48%;
-    }
-}
-
-@media (max-width: 480px) {
-    .first-two, .last-two {
-        flex-direction: column;
-    }
-
-    .f-one, .s-one, .t-one, .ff-one {
-        flex: 1 1 100%;
-    }
-}
-
-.pentagon img {
-    width: 200px;
+.parent-pentagon img{
+    width: 150x;
+    height: 150px;
     margin: 0 30px;
+    position: relative;
+    bottom: 155px;
+    z-index: 1;
 }
 
+.first, .second, .third, .forth {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 150px;
+}
+
+.parent-pentagon h4, .parent-pentagon p {
+    position: relative;
+    z-index: 2;
+}
+
+.parent-pentagon h4 {
+    font-size: 64px;
+    color: var(--white);
+    bottom: 20px;
+}
+
+.parent-pentagon p {
+    font-size: 14px;
+    color: var(--white);
+    bottom: 30px;
+}
