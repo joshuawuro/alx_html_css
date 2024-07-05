@@ -3,13 +3,13 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    padding-top: 40px;
+    padding: 50px 0;
 }
 
 .textarea-results {
     width: 637px;
     margin: 0 auto;
-    padding: 40px 0;
+    /* padding: 40px 0; */
 }
 
 .textarea-results h1, .textarea-results p{
@@ -26,66 +26,83 @@
     margin: 30px 0;
 }
 
-.parent-pentagon {
+body {
+    font-family: Arial, sans-serif;
+}
+
+.container {
     display: flex;
-    flex-direction: row;
-    align-items: center;
+    flex-wrap: wrap;
     justify-content: center;
+    margin-top: 40px;
 }
 
-.parent-pentagon img{
-    width: 150x;
-    height: 150px;
-    margin: 0 30px;
+.item {
     position: relative;
-    bottom: 155px;
-    z-index: 1;
+    margin: 0 10px;
 }
 
-.first, .second, .third, .fourth {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    height: 150px;
+.item img {
+    width: 170px;
+    height: 170px;
 }
 
-.parent-pentagon h4, .parent-pentagon p {
-    position: relative;
-    z-index: 2;
+.item h4, .item p {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    margin: 0;
 }
 
-.parent-pentagon h4 {
+.item h4 {
+    color: var(--white);
     font-size: 64px;
-    color: var(--white);
-    bottom: 20px;
+    top: 80px;
+    left: 80px;
 }
 
-.parent-pentagon p {
-    font-size: 14px;
+.item p {
     color: var(--white);
-    bottom: 30px;
+    font-size: 16px;
+    top: 120px;
+    left: 82px;
+}
+
+@media (max-width: 768px) {
+
+    .textarea-results {
+        width: 502px;
+    }
+
+    .container {
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+    .item {
+        width: 35%;
+        margin: 20px 10px;
+        left: 3%;
+    }
 }
 
 @media (max-width: 480px) {
+
     .textarea-results {
-        width: 410px;
+        width: 305px;
     }
 
-    .parent-pentagon {
+    .container {
         flex-direction: column;
+        justify-content: center;
+        align-items: center;
     }
 
-    .parent-pentagon img {
-        width: 200px;
-        height: 200px;
+    .item {
+        left: -4px;
     }
 
-    .first, .second, .third, .fourth {
-        margin: 50px 0;
-    }
-
-    .parent-pentagon h4, .parent-pentagon p {
-        top: 3px;
-        height: 150px;
+    .item p{
+        width: 90px;
     }
 }
+
