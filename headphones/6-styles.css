@@ -12,7 +12,7 @@
     transform: translate(-50%, -50%);
     height: 0;
     width: 180px;
-    border-top: 180px solid rgb(0, 66, 128);
+    border-top: 180px solid var(--primary-color);
     border-left: 90px solid transparent;
     border-right: 90px solid transparent;
 }
@@ -20,7 +20,7 @@
 .pentagon:after {
     position: absolute;
     content: '';
-    border-bottom: 180px solid rgb(0, 66, 128);
+    border-bottom: 180px solid var(--primary-color);
     border-left: 180px solid transparent;
     border-right: 180px solid transparent;
     bottom: 180px;

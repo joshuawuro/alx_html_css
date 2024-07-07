@@ -193,13 +193,9 @@ blockquote {
     }
 
     .md-txt-hsectn {
-        margin-top: 250px;
-        width: 357px auto;
+        margin-top: 200px;
+        padding: 0 20px;
         text-align: center;
-    }
-
-    blockquote {
-        width: 357px;
     }
 }
 
