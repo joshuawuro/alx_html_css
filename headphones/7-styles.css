@@ -1,17 +1,18 @@
-.item img {
-    animation: pulse 2s infinite;
-}
-
-@keyframes pusle{
-    0% {
-        transform: scale(1);
+@keyframes pulsate {
+    100% {
+        transform: scale(100%);
+        /* transform: translateX(0px); */
     }
 
     50% {
-        transform: scale(1.1);
+        transform: scale(80%);
+        /* transform: translateX(-10px); */
     }
+}
 
-    100% {
-        transform: scale(1);
-    }
+.item {
+    animation-name: pulsate;
+    animation-duration: 3s;
+    animation-delay: 0;
+    animation-iteration-count: infinite;
 }

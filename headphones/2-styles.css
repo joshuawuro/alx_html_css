@@ -33,9 +33,25 @@
     margin-top: 40px;
 }
 
+@keyframes pulsate {
+    100% {
+        transform: scale(100%);
+        /* transform: translateX(0px); */
+    }
+
+    50% {
+        transform: scale(90%);
+        /* transform: translateX(-10px); */
+    }
+}
+
 .item {
     position: relative;
     margin: 0 10px;
+    animation-name: pulsate;
+    animation-duration: 3s;
+    animation-delay: 0;
+    animation-iteration-count: infinite;
 }
 
 .item img {
