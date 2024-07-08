@@ -1,4 +1,3 @@
-
 .pentagon {
     position: absolute;
     top: 50%;
@@ -6,15 +5,14 @@
     transform: translate(-50%, -50%);
     height: 0;
     width: 180px;
-    border-top: 180px solid var(--primary-color);
+    border-top: 180px solid orange;
     border-left: 90px solid transparent;
     border-right: 90px solid transparent;
 }
-
 .pentagon:after {
     position: absolute;
     content: '';
-    border-bottom: 180px solid var(--primary-color);
+    border-bottom: 180px solid orange;
     border-left: 180px solid transparent;
     border-right: 180px solid transparent;
     bottom: 180px;
